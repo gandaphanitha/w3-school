@@ -526,9 +526,7 @@ a{
 }
 .frontend3:hover{
     background-color:#FFF4A3;
-}
-.frontend:hover{
-    opacity:0.8;
+    
 }
 .gif{
     width: 80vw;
@@ -1022,7 +1020,7 @@ li{
     opacity: 0.8;
 }
 .container1{
-    height: 68vh;
+    height: 70vh;
     width: 31vw;
     margin-left: 10%;
     margin-top: 1%;
@@ -1036,7 +1034,7 @@ li{
     font-size: 1em;
 }
 .inside_box{
-    height: 48vh;
+    height: 50vh;
     width: 28vw; 
     margin-left: 3%;
     background-color: white;
@@ -1169,105 +1167,4 @@ li{
     margin-bottom: 5%;
     font-family: Verdana, sans-serif;
 
-}
-@media screen and (max-width:1100px) {
-    .left{
-        display: none;
-
-    }
-    .learn{
-        height: 50%;
-        border-bottom: 1px solid white;
-    } 
-    .parent{ 
-        display: grid;
-        grid-template-columns: repeat(2, 28vh);
-        grid-template-rows: repeat(3, 40vw);
-        justify-content: center;
-        border-bottom: 1px solid white;
-        padding-bottom: 5%;
-
-    }
-    .ph{
-        height:10vh;
-    }
-    .code{
-        padding-top: 50px;
-        height:60vh;
-    }
-    .gif{
-        /* width: 100%; */
-    }
-    .center1{
-        height:90vh;
-    }
-    .center1 img{
-        width: 80%;
-    }
-    .center{
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-    .job{
-        text-align: center;
-        margin-right: 10%;
-    }
-    .my img{
-        width: 80vw;
-        height: 30vh;
-    }
-    .my{
-        margin-right: 10%;
-    
-    }
-    .good{
-        margin-bottom: 20%;
-        height: 70vh;
-    }
-    .column{
-        margin-right: 80%;
-    }
-    .row{
-        padding: 1% 14%;
-    }
-    .butt2{
-        width: 40vw;
-    }
-    .icon{
-        font-size: 10px;
-    }
-    .some{
-       margin-left: -10%;
-    }
-    .text{
-        margin-left: -10%;
-        font-size: 8px;
-    }
-    .landing{
-        margin-right: -15%;
-    }
-    .spacefooter{
-        margin-top:-30%;
-    }
-    
-    .search{
-        display: none;
-    }
-    .login{
-        margin-right: 10.8em;
-    }
-    .btn2{
-        margin-left: 40px;
-    }
-    .htmlpart{
-        display: grid;
-    }
-    .container1{
-        height: 50vh;
-        width: 80vw;
-    }
-    .inside_box{
-        height: 35vh;
-        width: 70vw;
-    }
 }
