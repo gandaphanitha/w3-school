@@ -524,6 +524,9 @@ a{
     padding-bottom: 5px;
     width: 35vw;
 }
+.frontend3:hover{
+    background-color:#FFF4A3;
+}
 .frontend:hover{
     opacity:0.8;
 }
