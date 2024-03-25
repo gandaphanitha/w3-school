@@ -744,22 +744,23 @@ li{
 
 }
 .image9{
-    margin-right: 7%; 
-    position: relative;
-    z-index: auto;
-}
-.image10{    
-    position:absolute;
+    position: absolute;
     right: 200px;
     width: 210px;
-    z-index:1;
+    /* transform: rotate(10deg); */
+    /* bottom: -50px; */
+    z-index: 1;
+}
+.image10{
+    position: absolute;
+    right: 25px;
+    width: 210px;
+    /* transform: rotate(10deg); */
+    /* bottom: -130px; */
 }
 .log{
-    position: absolute;
-    margin-left: -6%;
-    /* right: 50px; */
-    width: 210px;
-    z-index: 6;
+    position:relative;
+    margin-right: 5%;
 }
 .browser1{
     background-color:#04AA6D;
