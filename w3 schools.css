@@ -525,7 +525,7 @@ a{
     width: 35vw;
 }
 .frontend3:hover{
-    opacity:0.8;
+    background-color:hwb(53 55% 6%);
     
 }
 .gif{
