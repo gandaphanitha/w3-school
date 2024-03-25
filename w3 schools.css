@@ -524,8 +524,8 @@ a{
     padding-bottom: 5px;
     width: 35vw;
 }
-.frontend2:hover{
-    background-color: hsl(53, 86%, 41%);
+.frontend:hover{
+    opacity:0.8;
 }
 .gif{
     width: 80vw;
@@ -593,7 +593,7 @@ li{
     text-decoration: underline;
 }
 .pro:hover{
-    background-color: hsl(120, 96%, 22%);
+    color: hsl(120, 96%, 22%);
 }
 .picker{
     text-align: center;
@@ -744,19 +744,22 @@ li{
 
 }
 .image9{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -25%;
-    margin-right: 9%;
+    margin-right: 7%; 
+    position: relative;
+    z-index: auto;
 }
-.image10{
-    display: flex;
-    justify-content: flex-start;
-    height: 400px;
-    width: 400px;
+.image10{    
+    position:absolute;
+    right: 200px;
+    width: 210px;
+    z-index:1;
+}
+.log{
     position: absolute;
-    z-index: 4;
-    margin-right: 2%;
+    margin-left: -6%;
+    /* right: 50px; */
+    width: 210px;
+    z-index: 6;
 }
 .browser1{
     background-color:#04AA6D;
